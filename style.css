@@ -1,0 +1,444 @@
+body{
+  background-color: #000000;
+}
+
+/*............................INFORMACIÓN POR ENCIMA DEL HEADER..........*/
+@media screen {
+  .hero__nav-2 {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    margin: auto;
+  }
+
+
+  .nada-2{
+    width: 0px;
+  }
+
+
+  .telefono{
+    color: #fff;
+    text-align: left ;
+  }
+
+  .telefono:hover{
+    color: red;
+  }
+
+  .redes{
+    text-align: right;
+  }
+
+  .social-media-2{
+      opacity: 1; 
+      transition: opacity 0.5s ease 0s; 
+      box-sizing: border-box; 
+      text-align: right; 
+    }
+    
+    .social-media-icon-2{
+      display: inline-block;
+      margin-left: 20px;
+      width: 60px;
+      height: 60px;
+      text-align: center;
+      color: rgb(255, 255, 255);
+      background-color: rgb(0, 0, 0);      
+    }
+    
+    .social-media-icon-2:hover{
+      color: #ff0000;;
+    }
+    
+    .social-media-icon-2 i{
+      font-size: 30px;
+      line-height: 60px;
+      
+    }
+    
+    
+    
+    
+    @media screen  and (max-width:800px){
+      .menu-navegacion{
+          width: 50vw;
+      }
+    
+      .titulo{
+          font-size: 40px;
+      }
+    
+      .contenedor-servicio{
+          width: 80%;
+          margin-bottom: 40px;
+      }
+    
+      .checklist-servicio{
+          width: 80%;
+      }
+    
+      .service{
+          margin-bottom: 30px;
+      }
+    
+      .agregar-imagen{
+          width: 80%;
+      }
+    
+      .img-galeria{
+          width: 45%;
+      }
+    
+      .cont-expert{
+          width: 80%;
+      }
+    
+      .footer-content{
+          justify-content: center;
+      }
+    
+     .social-media{
+         width: 80%;
+         justify-content: space-evenly;
+     }
+     .social-media-icon{
+         margin-left: 0;
+     }
+    
+     .social-media i{
+         margin-left: 0;
+     }
+    
+     .contact-us{
+         text-align: center;
+         width: 80%;
+         margin-bottom: 40px;
+     }
+    }
+}
+
+/*............................HEADER......................................*/
+@media screen {
+    header {
+    position: fixed;
+    z-index: 10;
+    width: 98.5%;
+    height: 15%;
+    background-color: rgba(255, 255, 255, 0.568);
+    margin-bottom: 90%;
+  }
+  
+  .hero__nav {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+    margin: auto;
+  }
+  
+  .hero__logo {
+    width: 30%;
+  
+  }
+  
+  
+  .hero__list {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    font-size: 130%;
+    max-width: 300px;    
+
+  }
+  
+  .nav__link {
+    text-decoration-color: #ff030300;
+    padding: 0 1rem;
+    color: rgb(0, 0, 0);
+    font-size: 100%;
+  }
+  
+  .nav__link:hover {
+    color: red;
+    cursor: pointer;
+  }
+
+  .hero {
+    position: relative;
+
+  }
+  
+  .hero__nav {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+    margin: auto;
+  }
+  
+  
+  .hero__img {
+    width: 60%;
+    display: block;
+    max-width: 160px;
+    padding-bottom: 20%;
+  }
+  
+  .hero__list {
+    list-style-type: none;
+    display: flex;
+    width: 60%;
+    max-width: 300px;
+  }
+
+  .nada{
+    width: 0%;
+  }
+}
+
+/*............................ESTILOS GENERALES...........................*/
+@media screen {
+    .subtitulos{
+        text-align: center;
+        color: #000000;
+        font-size: 5rem;
+        padding-top: 10%;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .line{
+    width: 96%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 2%;
+    margin-bottom: 2%;
+ }
+
+ .line-footer{
+    width: 100%;
+    margin: 0 auto;
+    height: 2px;
+    background: #fffefe;
+    margin-bottom: 60px;
+ }
+}
+
+/*............................galeria.....................................*/
+@media screen {
+    .gallery{
+    background: #d4d4d4;
+    padding-top: 5%;
+  }
+
+.contenedor-galeria{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+.img-galeria{
+    width: 30%;
+    height: auto;
+    margin-bottom: 5%;
+    border-radius: 3%;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+  }
+  .img-galeria:hover{
+    width: 31%;
+  }
+
+}
+
+/*............................social-media................................*/
+@media screen {
+    .social-media{
+        bottom: 14px; 
+        right: 16px; 
+        opacity: 1; 
+        transition: opacity 0.5s ease 0s; 
+        box-sizing: border-box; 
+        direction: ltr; 
+        text-align: right; 
+        position: fixed !important; 
+        z-index: 16000160 !important;
+      }
+      
+      .social-media-icon{
+        display: inline-block;
+        margin-left: 20px;
+        width: 60px;
+        height: 60px;
+        border: 1px solid rgb(50, 255, 9);
+        border-radius: 50%;
+        text-align: center;
+        color: rgb(43, 255, 0);
+        background-color: rgb(0, 0, 0);
+        
+      }
+      
+      .social-media-icon:hover{
+        background: rgb(4, 150, 11);
+        color: #000000;;
+        
+      }
+      
+      .social-media-icon i{
+        font-size: 45px;
+        line-height: 60px;
+        
+      }
+      
+      
+      
+      
+      @media screen  and (max-width:800px){
+        .menu-navegacion{
+            width: 50vw;
+        }
+      
+        .titulo{
+            font-size: 40px;
+        }
+      
+        .contenedor-servicio{
+            width: 80%;
+            margin-bottom: 40px;
+        }
+      
+        .checklist-servicio{
+            width: 80%;
+        }
+      
+        .service{
+            margin-bottom: 30px;
+        }
+      
+        .agregar-imagen{
+            width: 80%;
+        }
+      
+        .img-galeria{
+            width: 45%;
+        }
+      
+        .cont-expert{
+            width: 80%;
+        }
+      
+        .footer-content{
+            justify-content: center;
+        }
+      
+       .social-media{
+           width: 80%;
+           justify-content: space-evenly;
+       }
+       .social-media-icon{
+           margin-left: 0;
+       }
+      
+       .social-media i{
+           margin-left: 0;
+       }
+      
+       .contact-us{
+           text-align: center;
+           width: 80%;
+           margin-bottom: 40px;
+       }
+      }
+}
+
+/*............................FOOTER......................................*/
+@media screen {
+    
+    footer{
+        background-color: #000000;
+        padding-bottom: 5%;
+    }
+    
+    #contacto{
+      padding-bottom: 0.1px;
+      width: 100%;
+    }
+    
+    .logo-titulo{
+      height: 80px;
+      width:  80px;
+    }
+    
+      .nav__footer {
+
+        padding: 0 1rem;
+        color: rgb(255, 255, 255);
+        font-size: 2rem;
+      }
+    
+      .footer__nav {
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 20vh;
+        margin: auto;
+        
+      }
+      
+      .nada-footer{
+        width: 20%;
+      }
+    
+    .footer-content{
+      display: flex;
+      justify-content: space-between;
+      align-content: center;
+      flex-wrap: wrap;
+      padding-top: 60px;
+      padding-bottom: 40px;
+    }
+    
+    .contact-us{
+      width: 60%;
+      color: #fff;
+    }
+    
+    .brand{
+      font-weight: 500;
+      font-size: 40px;
+    }
+    .brand+p{
+      font-weight: 500;
+      color: #000000;
+    }
+    
+    h2.brand{
+      color: #000000;
+    }
+
+    .mail{
+      text-align: left;
+      font-size: 25px;
+      padding-left: 42.5%;
+      color: #fff;
+      cursor: pointer;
+    }
+    .mail:hover{
+      color: gold;
+    }
+  
+    .mail-logo{
+      padding-left: 50%;
+      width: 30px;
+      height: 30px;
+    }
+
+
+          
+}
